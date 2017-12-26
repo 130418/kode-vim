@@ -109,15 +109,15 @@ let s:gb.light4_256  = ['#78909c', 246]     " 120-144-156
 
 let s:gb.bright_red     = ['#ef5350', 167]     " 239-83-80
 let s:gb.bright_green   = ['#81c784', 142]     " 129-199-132
-let s:gb.bright_yellow  = ['#ffee58', 214]     " 255-238-88
-let s:gb.bright_blue    = ['#64b5f6', 109]     " 100-181-246
+let s:gb.bright_yellow  = ['#ffff8d', 214]     " 255-255-141
+let s:gb.bright_blue    = ['#4fc3f7', 109]     " 79-195-247
 let s:gb.bright_purple  = ['#ea80fc', 175]     " 234-128-252
 let s:gb.bright_aqua    = ['#4db6ac', 108]     " 77-182-172
 let s:gb.bright_orange  = ['#ffb74d', 208]     " 255-183-77
 
 let s:gb.neutral_red    = ['#e53935', 124]     " 229-57-53
 let s:gb.neutral_green  = ['#4caf50', 106]     " 76-175-80
-let s:gb.neutral_yellow = ['#ffea00', 172]     " 255-234-0
+let s:gb.neutral_yellow = ['#ffff00', 172]     " 255-255-0
 let s:gb.neutral_blue   = ['#00bcd4', 66]      " 0-188-212
 let s:gb.neutral_purple = ['#e040fb', 132]     " 224-64-251
 let s:gb.neutral_aqua   = ['#4db6ac', 72]      " 77-182-172
