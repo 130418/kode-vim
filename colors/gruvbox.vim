@@ -110,7 +110,7 @@ let s:gb.light4_256  = ['#78909c', 246]     " 120-144-156
 let s:gb.bright_red     = ['#ef5350', 167]     " 239-83-80
 let s:gb.bright_green   = ['#81c784', 142]     " 129-199-132
 let s:gb.bright_yellow  = ['#ffff8d', 214]     " 255-255-141
-let s:gb.bright_blue    = ['#4fc3f7', 109]     " 79-195-247
+let s:gb.bright_blue    = ['#4dd0e1', 109]     " 77-208-225
 let s:gb.bright_purple  = ['#ea80fc', 175]     " 234-128-252
 let s:gb.bright_aqua    = ['#4db6ac', 108]     " 77-182-172
 let s:gb.bright_orange  = ['#ffb74d', 208]     " 255-183-77
@@ -121,7 +121,7 @@ let s:gb.neutral_yellow = ['#ffff00', 172]     " 255-255-0
 let s:gb.neutral_blue   = ['#00bcd4', 66]      " 0-188-212
 let s:gb.neutral_purple = ['#e040fb', 132]     " 224-64-251
 let s:gb.neutral_aqua   = ['#4db6ac', 72]      " 77-182-172
-let s:gb.neutral_orange = ['#255-183-77', 166]     " 
+let s:gb.neutral_orange = ['#ff9800', 166]     " 255-152-0
 
 let s:gb.faded_red      = ['#9d0006', 88]      " 157-0-6
 let s:gb.faded_green    = ['#79740e', 100]     " 121-116-14
@@ -725,11 +725,11 @@ if !exists('g:rbpt_colorpairs')
   let g:rbpt_colorpairs =
     \ [
       \ ['blue', '#00bcd4'], ['magenta', '#e040fb'],
-      \ ['red',  '#e53935'], ['166',     '#255-183-77']
+      \ ['red',  '#e53935'], ['166',     '#ff9800']
     \ ]
 endif
 
-let g:rainbow_guifgs = [ '#255-183-77', '#e53935', '#e040fb', '#00bcd4' ]
+let g:rainbow_guifgs = [ '#ff9800', '#e53935', '#e040fb', '#00bcd4' ]
 let g:rainbow_ctermfgs = [ '166', 'red', 'magenta', 'blue' ]
 
 if !exists('g:rainbow_conf')
