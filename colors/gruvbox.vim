@@ -107,21 +107,21 @@ let s:gb.light3      = ['#90a4ae', 248]     " 144-164-174
 let s:gb.light4      = ['#9e9e9e', 246]     " 158-158-158
 let s:gb.light4_256  = ['#9e9e9e', 246]     " 158-158-158
 
-let s:gb.bright_red     = ['#ef5350', 167]     " 239-83-80
-let s:gb.bright_green   = ['#81c784', 142]     " 129-199-132
-let s:gb.bright_yellow  = ['#fff176', 214]     " 255-241-118
-let s:gb.bright_blue    = ['#00bcd4', 109]     " 0-188-212
-let s:gb.bright_purple  = ['#ea80fc', 175]     " 234-128-252
-let s:gb.bright_aqua    = ['#009688', 108]     " 0-150-136
-let s:gb.bright_orange  = ['#ffb74d', 208]     " 255-183-77
+let s:gb.bright_red     = ['#fb4934', 167]     " 251-73-52
+let s:gb.bright_green   = ['#b8bb26', 142]     " 184-187-38
+let s:gb.bright_yellow  = ['#fabd2f', 214]     " 250-189-47
+let s:gb.bright_blue    = ['#83a598', 109]     " 131-165-152
+let s:gb.bright_purple  = ['#d3869b', 175]     " 211-134-155
+let s:gb.bright_aqua    = ['#8ec07c', 108]     " 142-192-124
+let s:gb.bright_orange  = ['#fe8019', 208]     " 254-128-25
 
-let s:gb.neutral_red    = ['#d32f2f', 124]     " 211-47-47
-let s:gb.neutral_green  = ['#43a047', 106]     " 67-160-71
-let s:gb.neutral_yellow = ['#fdd835', 172]     " 253-216-53
-let s:gb.neutral_blue   = ['#0277bd', 66]      " 2-119-189
-let s:gb.neutral_purple = ['#e040fb', 132]     " 224-64-251
-let s:gb.neutral_aqua   = ['#00695c', 72]      " 0-105-92
-let s:gb.neutral_orange = ['#251-140-0', 166]     " 
+let s:gb.neutral_red    = ['#cc241d', 124]     " 204-36-29
+let s:gb.neutral_green  = ['#98971a', 106]     " 152-151-26
+let s:gb.neutral_yellow = ['#d79921', 172]     " 215-153-33
+let s:gb.neutral_blue   = ['#458588', 66]      " 69-133-136
+let s:gb.neutral_purple = ['#b16286', 132]     " 177-98-134
+let s:gb.neutral_aqua   = ['#689d6a', 72]      " 104-157-106
+let s:gb.neutral_orange = ['#d65d0e', 166]     " 214-93-14
 
 let s:gb.faded_red      = ['#9d0006', 88]      " 157-0-6
 let s:gb.faded_green    = ['#79740e', 100]     " 121-116-14
@@ -724,12 +724,12 @@ endif
 if !exists('g:rbpt_colorpairs')
   let g:rbpt_colorpairs =
     \ [
-      \ ['blue', '#0277bd'], ['magenta', '#e040fb'],
-      \ ['red',  '#d32f2f'], ['166',     '#251-140-0']
+      \ ['blue', '#458588'], ['magenta', '#b16286'],
+      \ ['red',  '#cc241d'], ['166',     '#d65d0e']
     \ ]
 endif
 
-let g:rainbow_guifgs = [ '#251-140-0', '#d32f2f', '#e040fb', '#0277bd' ]
+let g:rainbow_guifgs = [ '#d65d0e', '#cc241d', '#b16286', '#458588' ]
 let g:rainbow_ctermfgs = [ '166', 'red', 'magenta', 'blue' ]
 
 if !exists('g:rainbow_conf')
